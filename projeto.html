@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Projetos</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+</head>
+<body>
+    <div id="container-projeto">
+        <header id="header-projeto">
+            <div id="profile-projeto">
+                <img src="./Imagens/avatar.png" alt="Foto de Marcos" />
+                <h1>Marcos Júnior</h1>
+                <div id="switch-projeto" onclick="toggleMode()">
+                    <button></button>
+                    <span></span>
+                </div>
+            </div>
+            <div id="paginas-projeto">              
+                <a id="a1" href="./index.html">Página Inicial</a>
+                <a id="a2" href="./sobre.html">Sobre</a>
+                <a id="a3" href="./projeto.html">Meus Projetos</a>          
+            </div>
+        </header>
+        <main id="corpo-projeto">
+            <div id="menu-lateral-projeto">
+                <div class="btn-expandir" onclick="clicar()">
+                    <i class="bi bi-list"></i>
+                </div>
+                <div id="social-links-projeto">
+                    <a href="https://github.com/MarcxsJr" target="_blank">
+                      <ion-icon name="logo-github"></ion-icon
+                    ></a>
+                    <a href="https://www.instagram.com/marcxs_jr/" target="_blank">
+                      <ion-icon name="logo-instagram"></ion-icon
+                    ></a>
+                    <a href="mailto:marco.jr.415@gmail.com" target="_blank">
+                      <ion-icon name="mail"></ion-icon
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/marcos-j%C3%BAnior-a870aa211/"
+                      target="_blank">
+                      <ion-icon name="logo-linkedin"></ion-icon
+                    ></a>
+                </div>
+            </div>
+        </main>
+        <div id="corpo-projeto">
+            <h1>Projetos 2023</h1><br>
+            <p><a href="https://github.com/MarcxsJr/Portfolio" target="_blank"><li>Portfólio</li></a></p>
+            <p><a href="https://github.com/MarcxsJr/Calculadora" target="_blank"><li>Calculadora</li></a></p>
+            </h1><br>
+        </div>
+        <footer id="footer-projeto">
+            <h1>Feito por Marcos Júnior - 2023</h1>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> 
+    <script src="./script.js"></script>
+</body>
+</html>
